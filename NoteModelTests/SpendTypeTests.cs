@@ -17,6 +17,9 @@ namespace NoteModelTests
 
             var food = rent+1;
             Assert.AreEqual(food, Note.SpendType.Food);
+
+            var rest = food + 1;
+            Assert.AreEqual(rest, Note.SpendType.Rest);
         }
     }
 }
